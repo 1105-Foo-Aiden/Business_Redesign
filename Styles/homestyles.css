@@ -31,6 +31,7 @@ p {
 
 .privcyNotice p{
     width: 84.2%;
+    margin: auto;
     color: black;
     text-align: start;
     margin-top: auto;
@@ -38,6 +39,8 @@ p {
 }
 
 .privcyNotice b{
+    width: 84.2%;
+    margin: auto;
     line-height: 50px;
 }
 
