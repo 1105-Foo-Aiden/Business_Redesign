@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
   <header>
     <div class="headerBackground">
       <div class="container nav text-center">
@@ -24,7 +23,7 @@
         </div>
         <div class="row text-center navBar">
           <div class="col"><a class="navPageLink" href="./index.html">
-              <p>Home</p>
+              <p class="selectedPage">Home</p>
             </a></div>
           <div class="col"><a class="navPageLink" href="./Pages/Retail_Info.html">
               <p>Retail Store Info</p>
@@ -35,11 +34,12 @@
           <div class="col"><a class="navPageLink" href="./Pages/Contact_Us.html">
               <p>Contact Us</p>
             </a></div>
-          <div class="col"><a href="https://discord.gg/cFxRwUCPjD"><img id="icon" src="../Assets/Icondiscord.png"></a><a
-              href="https://www.facebook.com/groups/642276279691195/?ref=share"><img id="icon"
-                src="../Assets/Iconfacbook.png"></a><a href="https://www.instagram.com/hammerhead_games/"><img id="icon"
-                src="../Assets/Iconinstagram.png"></a><a href="https://www.tiktok.com/@hammerheadgamessac"><img
-                id="icon" src="../Assets/tiktokIcon.png"></a></div>
+          <div class="col">
+            <a href="https://discord.gg/cFxRwUCPjD"><img id="icon" src="../Assets/Icondiscord.png"></a>
+            <a href="https://www.facebook.com/groups/642276279691195/?ref=share"><img id="icon" src="../Assets/Iconfacebook.png"></a>
+            <a href="https://www.instagram.com/hammerhead_games/"><img id="icon" src="../Assets/Iconinstagram.png"></a>
+            <a href="https://www.tiktok.com/@hammerheadgamessac"><img id="icon" src="../Assets/Icontiktok.png"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -50,11 +50,12 @@
       <h1>Where everyone is welcome at the table!</h1>
     </div>
     <div class="row imgBox">
-      <div class="col largeImg"><img src="./Assets/homeImageLarge.png" height="458px" width="575px" alt="frontCashier">
+      <div class="col largeImg">
+        <img src="./Assets/homeImageLarge.png" height="458px" width="575px" alt="frontCashier">
       </div>
       <div class="col smallImgs">
-        <div class="row"><img src="./Assets/homeImageSmall1.png" height="221px" width="554px" alt="cardCase"></div>
-        <div class="row"><img src="./Assets/homeImageSmall2.png" height="221px" width="554px" alt="storeShelf"></div>
+        <img src="./Assets/homeImageSmall1.png" height="221px" width="554px" alt="cardCase">
+        <img src="./Assets/homeImageSmall2.png" height="221px" width="554px" alt="storeShelf">
       </div>
     </div>
     <div class="row mainBox">
@@ -88,7 +89,7 @@
         <p class="toAction">
           Check it out and start shopping today!
           Come play at Hammerhead Games, where everyone is welcome at the table!
-          You can find us at <span style="color: #6DCCEF;"><a
+          You can find us at <span><a
               href="https://www.google.com/maps/place/Hammerhead+Games/@38.6517256,-121.3289908,17z/data=!4m6!3m5!1s0x809adfc372dbab51:0x1fc124715f39f27e!8m2!3d38.6516964!4d-121.3258419!16s%2Fg%2F11jpftv4bc?entry=ttu">4762
               Manzanita Avenue, Carmichael, CA 95608</a></span>, at
           the corner between the Big 5 and the Food
@@ -98,28 +99,23 @@
   </div>
 
   <footer>
-    <div class="footerNavBackground"
-      style="background: linear-gradient(rgba(18, 63, 84, 1),rgba(18, 63, 84, 0.7)); width: 100%; height: 182px; display: flex;">
-      <div class="col logoCol" style="display: flex; justify-content: center; align-items: center;"><img
-          src="./Assets/hammerheadLogoLarge.png" width="376px" height="129px"></div>
-      <div class="col submitCol"
-        style="display: flex;margin-top: 20px; align-items: center; flex-direction: column; row-gap: 15px;">
+    <div class="footerNavBackground">
+      <div class="col logoCol"><img src="./Assets/hammerheadLogoLarge.png" width="376px" height="129px"></div>
+      <div class="col submitCol">
         <div class="row">
           <p>Subscribe Form</p>
         </div>
-        <div class="row"><input type="email" name="subscribeEmail" placeholder="Email Address" type="text"
-            style="width: 331px;"></div>
-        <div class="row"><button style="width: 331px; background-color: #3092C0;">Submit</button></div>
+        <div class="row"><input type="email" name="subscribeEmail" placeholder="Email Address" type="text"></div>
+        <div class="row"><button>Submit</button></div>
       </div>
-      <div class="col contactCol"
-        style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div class="col contactCol">
         <div class="row">
           <p>hammerheadgames@notarealaddress.com</p>
         </div>
         <div class="row">
           <p>(916) 568-9232</p>
         </div>
-        <div class="row" style="font-size: smaller;">
+        <div class="row copyright">
           <p>©2020-2023 by The Shark Tank by Hammerhead Games Privacy Notice</p>
         </div>
       </div>

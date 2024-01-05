@@ -14,8 +14,6 @@ p {
 #icon {
     width: 20px;
     height: 20px;
-    color: white;
-    filter: brightness(2);
     margin: 0px 5px;
 }
 
@@ -37,7 +35,7 @@ p {
 }
 
 .navBar {
-    width: 80%;
+    width: 100%;
     font-size: smaller;
     margin-left: auto;
     margin-right: auto;
@@ -46,24 +44,29 @@ p {
     padding-top: 15px;
 }
 
-.navPageLink{
+.navPageLink {
     text-decoration: none;
-    border-top: #6DCCEF 2px solid;
+    border-top: #6DCCEF 4px solid;
 }
 
-.navPageLink p{
-    border-top: #6DCCEF 2px transparent;
+.navPageLink p {
+    border-top: #6DCCEF 4px transparent;
 }
 
-.navPageLink p:hover{
-    border-top: #6DCCEF 2px solid;
+.selectedPage {
+    border-top: #6DCCEF 4px solid;
+
+}
+
+.navPageLink p:hover {
+    border-top: #6DCCEF 4px solid;
 }
 
 .bodyMain {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 84.2%;
 }
 
 .bodyMain h1 {
@@ -84,20 +87,23 @@ p {
     display: flex;
     height: 458px;
     margin: 10px 0px;
+    flex-direction: column;
 }
 
-.largeImg{
-    padding-left:0;
+.largeImg {
+    padding-left: 0;
+    width: auto;
 }
 
 .smallImgs {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: auto;
     padding-right: 0;
 }
 
-.smallImgs row{
+.smallImgs row {
     width: 529px !important;
 }
 
@@ -120,7 +126,7 @@ p {
 }
 
 .mainBox p {
-    font-family: 'Inika', serif;;
+    font-family: 'Inika', serif;
     text-indent: 50px;
     color: black;
     font-size: 24px;
@@ -130,4 +136,49 @@ p {
 .toAction {
     text-align: center !important;
     text-indent: 0 !important;
+}
+
+.toAction span {
+    color: #6DCCEF
+}
+
+.footerNavBackground {
+    background: linear-gradient(rgba(18, 63, 84, 1), rgba(18, 63, 84, 0.7));
+    width: 100%;
+    height: 182px;
+    display: flex;
+}
+
+.logoCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitCol {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.submitCol input {
+    width: 331px;
+}
+
+.submitCol button {
+    width: 331px;
+    background-color: #3092C0;
+}
+
+.contactCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: smaller;
 }
