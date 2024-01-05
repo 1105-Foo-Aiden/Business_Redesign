@@ -38,7 +38,7 @@ p {
 .nav {
     padding: 0;
     height: 182px;
-    width: 900px;
+    width: 800px;
 }
 
 .navLogo {
@@ -66,7 +66,7 @@ p {
 }
 
 .selectedPage {
-    border-top: #6DCCEF 4px solid;
+    border-top: #6DCCEF 4px solid; color: #6DCCEF;
 
 }
 
