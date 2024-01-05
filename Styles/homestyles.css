@@ -48,15 +48,20 @@ p {
 
 .navPageLink {
     text-decoration: none;
-    border-top: #6DCCEF 2px solid;
+    border-top: #6DCCEF 4px solid;
 }
 
 .navPageLink p {
-    border-top: #6DCCEF 2px transparent;
+    border-top: #6DCCEF 4px transparent;
+}
+
+.selectedPage{
+    border-top: #6DCCEF 4px solid;
+
 }
 
 .navPageLink p:hover {
-    border-top: #6DCCEF 2px solid;
+    border-top: #6DCCEF 4px solid;
 }
 
 .bodyMain {
@@ -96,6 +101,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: auto;
     padding-right: 0;
 }
 
