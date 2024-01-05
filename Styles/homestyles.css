@@ -101,6 +101,7 @@ p {
     text-align: center;
 }
 
+
 .sloganBox {
     width: 100%;
     height: 119px;
@@ -110,16 +111,31 @@ p {
 }
 
 .contactBox {
-    width: 50%;
-    height: 648px;
+    width: 40%;
+    height: fit-content;
     background-color: rgba(130, 179, 194, .75);
     margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
 }
 
 .contactTextBoxes{
-    width: 300%;
+    width: 100%;
 }
+
+.contactMain {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.contactText {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
 
 .imgBox {
     display: flex;
