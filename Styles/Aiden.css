@@ -26,6 +26,13 @@ a{
 }
 
 .selectedPage{
-    text-decoration: overline 4px; color: #6DCCEF;
-    color: #6dccef;
+    border-top: #6DCCEF 4px solid; color: #6DCCEF;
+}
+
+h1{
+    color: #6dccef; 
+    font-weight: bold; 
+    font-size: 30px; 
+    font-family: 'Inknut Antiqua', serif; 
+    -webkit-text-stroke: 2px black;
 }
