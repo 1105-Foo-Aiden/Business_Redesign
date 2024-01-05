@@ -5,7 +5,8 @@
 }
 
 .TextBG{
-    background-color: rgba(130, 179, 194, .75)
+    background-color: rgba(130, 179, 194, .75);
+    padding-left:2%
 }
 
 #icon{
@@ -35,7 +36,7 @@ a{
 h1{
     color: #6dccef; 
     font-weight: bold; 
-    font-size: 30px; 
+    font-size: 34px; 
     font-family: 'Inknut Antiqua', serif; 
     -webkit-text-stroke: 2px black;
 }

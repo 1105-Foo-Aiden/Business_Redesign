@@ -33,10 +33,13 @@ const ApiCall = async () =>{
             p2.textContent = 'We will now send news to your mailbox'
             subscribedText.append(p, p2)
         }
+        else{
+            alert('Please enter a valid Email Adress')
+        }
     } 
     catch (error) 
     {
-    	console.error(error);
+    	console.error(error)
     }
     
 }
