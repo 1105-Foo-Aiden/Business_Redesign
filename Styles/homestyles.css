@@ -117,6 +117,10 @@ p {
     align-items: center;
 }
 
+.contactTextBoxes{
+    width: 300%;
+}
+
 .imgBox {
     display: flex;
     height: 458px;
