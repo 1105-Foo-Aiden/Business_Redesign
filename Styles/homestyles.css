@@ -16,7 +16,7 @@
     background-size: 100% 100%;
 }
 
-.privacyBody{
+.privacyBody {
     background-image: url(../Assets/backgroundMain.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -29,7 +29,7 @@ p {
     margin-bottom: auto;
 }
 
-.privcyNotice p{
+.privcyNotice p {
     width: 84.2%;
     margin: auto;
     color: black;
@@ -38,7 +38,7 @@ p {
     margin-bottom: auto;
 }
 
-.privcyNotice b{
+.privcyNotice b {
     width: 84.2%;
     margin: auto;
     line-height: 50px;
@@ -88,7 +88,8 @@ p {
 }
 
 .selectedPage {
-    border-top: #6DCCEF 4px solid; color: #6DCCEF;
+    border-top: #6DCCEF 4px solid;
+    color: #6DCCEF;
 
 }
 
@@ -166,13 +167,13 @@ p {
     align-items: center;
 }
 
-.contactTextBoxes{
+.contactTextBoxes {
     width: 100%;
 }
 
 .contactMain {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-direction: column;
     padding-top: 20px;
 }
@@ -184,7 +185,7 @@ p {
 
 .privacyMain {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-direction: column;
     padding-top: 20px;
 }
@@ -212,7 +213,7 @@ p {
 
 }
 
-.largeImg img{
+.largeImg img {
     width: 100%;
     height: 100%;
 }
@@ -292,8 +293,6 @@ p {
     min-width: 300PX;
 }
 
-
-
 .submitCol button {
     background-color: #3092C0;
     border-radius: 5px;
@@ -314,27 +313,81 @@ p {
     font-size: smaller;
     width: 100%;
 }
-.Hours{
-    font-family: 'Inknut Antiqua', serif; 
-    border-style:solid;
-    border-color:black;
-    border-width: .5px; 
-    font-size:18px;
+
+.Hours {
+    font-family: 'Inknut Antiqua', serif;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+    font-size: 18px;
 }
 
-@media(max-width: 1439px){
-    
-    .smallImgs{
+
+.RetailInfoBG {
+    background-image: url(../Assets/backgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.TextBG {
+    background-color: rgba(130, 179, 194, .75);
+    padding-left: 2%
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+    filter: brightness(2);
+    margin: 0px 5px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #6DCCEF;
+}
+
+.selectedPageSM {
+    text-decoration: overline #6DCCEF 4px solid;
+    color: #6DCCEF;
+}
+
+.RetailInfoBG h1 {
+    color: #6dccef;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Inknut Antiqua', serif;
+    -webkit-text-stroke: 2px black;
+}
+
+.headerBackgroundSM {
+    background: linear-gradient(rgba(18, 63, 84, 0.7), rgba(18, 63, 84, 1));
+    width: 100%;
+    height: fit-content;
+}
+
+@media(max-width: 1439px) {
+
+    .smallImgs {
         display: none;
     }
-    
+
 }
 
 @media(max-width: 1024px) {
     .logoCol {
         display: none;
     }
-    .imgCol{
+
+    .imgCol {
         display: none;
     }
 
@@ -353,10 +406,11 @@ p {
     .calendarMain .row {
         width: 100%;
     }
-    .Hours{
+
+    .Hours {
         border-width: 0;
-        }
-    
+    }
+
 }
 
 
@@ -369,72 +423,27 @@ p {
         padding: 0;
         width: 90%;
     }
-    .interiorPic{
+
+    .interiorPic {
         display: none;
     }
-    input#subscribeInput{
+
+    input#subscribeInput {
         width: 75%;
     }
-    button#submitBtn{
+
+    button#submitBtn {
         width: 75%;
-       
+
     }
-    .submitRow{
+
+    .submitRow {
         display: flex;
         justify-content: center;
     }
-    .subscribeRow{
+
+    .subscribeRow {
         display: flex;
         justify-content: center;
     }
-}
-
-.RetailInfoBG{
-    background-image: url(../Assets/backgroundMain.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-
-.TextBG{
-    background-color: rgba(130, 179, 194, .75);
-    padding-left:2%
-}
-
-#icon{
-    width: 20px;
-    height: 20px;
-    color: white;
-    filter: brightness(2);
-    margin: 0px 5px;
-}
-
-p{
-    text-align: center;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-a{
-    text-decoration: none;
-    color: #6DCCEF;
-}
-
-.selectedPageSM{
-    text-decoration: overline #6DCCEF 4px solid; color: #6DCCEF;
-}
-
-.RetailInfoBG h1{
-    color: #6dccef; 
-    font-weight: bold; 
-    font-size: 34px; 
-    font-family: 'Inknut Antiqua', serif; 
-    -webkit-text-stroke: 2px black;
-}
-
-.headerBackgroundSM {
-    background: linear-gradient(rgba(18, 63, 84, 0.7), rgba(18, 63, 84, 1));
-    width: 100%;
-    height: fit-content;
 }
