@@ -3,6 +3,13 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.Hours{
+    font-family: 'Inknut Antiqua', serif; 
+    border-style:solid;
+    border-color:black;
+    border-width: .5px; 
+    font-size:18px;
+}
 
 .TextBG{
     background-color: rgba(130, 179, 194, .75);
@@ -49,4 +56,31 @@ h1{
     background: linear-gradient(rgba(18, 63, 84, 0.7), rgba(18, 63, 84, 1));
     width: 100%;
     height: fit-content;
+}
+
+@media (max-width: 425px) {
+    .interiorPic{
+        display: none;
+    }
+    input#subscribeInput{
+        width: 75%;
+    }
+    button#submitBtn{
+        width: 75%;
+       
+    }
+    .submitRow{
+        display: flex;
+        justify-content: center;
+    }
+    .subscribeRow{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px){
+    .Hours{
+        border-width: 0;
+    }
 }
