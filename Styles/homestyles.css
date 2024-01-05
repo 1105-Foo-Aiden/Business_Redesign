@@ -4,13 +4,13 @@
     background-size: 100% 100%;
 }
 
-.contactBody{
+.contactBody {
     background-image: url(../Assets/backgroundCoral.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.calendarBody{
+.calendarBody {
     background-image: url(../Assets/backgroundShark.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -32,13 +32,14 @@ p {
 .headerBackground {
     background: linear-gradient(rgba(18, 63, 84, 0.7), rgba(18, 63, 84, 1));
     width: 100%;
-    height: 182px;
+    height: fit-content;
+    margin-bottom: 15px;
 }
 
 .nav {
     padding: 0;
     height: 182px;
-    width: 900px;
+    width: 50%;
 }
 
 .navLogo {
@@ -81,18 +82,43 @@ p {
     width: 84.2%;
 }
 
-.calendarMain{
+.calendarMain {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 84.2%;
     background-color: rgba(130, 179, 194, .75);
+    margin: 10px auto;
 }
 
-.calendarMain h1{
+.calendarMain .row {
+    width: 60%;
+}
+
+.calendarMain h1 {
     text-align: center;
     color: #6DCCEF;
     -webkit-text-stroke: 2px black;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.calendarMain p {
+    font-family: 'Inika', serif;
+    text-align: start;
+    text-indent: 50px;
+    color: black;
+    font-size: 20px;
+}
+
+.calendarMain .p2 {
+    font-family: 'Inika', serif;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+
+.carousel {
+    margin: 10px;
 }
 
 .bodyMain h1 {
@@ -179,17 +205,20 @@ p {
 .footerNavBackground {
     background: linear-gradient(rgba(18, 63, 84, 1), rgba(18, 63, 84, 0.7));
     width: 100%;
-    height: 182px;
-    display: flex;
+    height: fit-content;
+    padding-bottom: 25px;
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .logoCol {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 15px;
+    margin: auto;
+    text-align: center;
 }
 
 .submitCol {
+    margin-top: 15px;
     display: flex;
     margin-top: 20px;
     align-items: center;
@@ -197,22 +226,63 @@ p {
     row-gap: 15px;
 }
 
-.submitCol input {
-    width: 331px;
+.submitCol .row {
+    width: 100%;
+    max-width: 331px;
+    min-width: 300PX;
 }
+
+
 
 .submitCol button {
-    width: 331px;
     background-color: #3092C0;
+    border-radius: 5px;
+    border: none;
 }
 
+
 .contactCol {
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .copyright {
     font-size: smaller;
+}
+
+@media(max-width: 1024px) {
+    .logoCol {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerNavBackground {
+        grid-auto-flow: row;
+    }
+
+    .calendarMain p,
+    .p2 {
+        display: none;
+    }
+
+    .calendarMain .row {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 425px) {
+    .copyright {
+        justify-content: center;
+    }
+
+    .contactCol p {
+        padding: 0;
+        width: 90%;
+    }
 }
