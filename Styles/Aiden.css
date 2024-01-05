@@ -1,0 +1,31 @@
+.RetailInfoBG{
+    background-image: url(../Assets/backgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    filter: brightness(2);
+    margin: 0px 5px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #6DCCEF;
+}
+
+.selectedPage{
+    text-decoration: overline 4px; color: #6DCCEF;
+    color: #6dccef;
+}
