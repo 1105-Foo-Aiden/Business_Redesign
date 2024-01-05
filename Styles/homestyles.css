@@ -16,11 +16,28 @@
     background-size: 100% 100%;
 }
 
+.privacyBody{
+    background-image: url(../Assets/backgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 p {
     text-align: center;
     color: white;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.privcyNotice p{
+    color: black;
+    text-align: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.privcyNotice b{
+    line-height: 50px;
 }
 
 #icon {
@@ -67,7 +84,7 @@ p {
 }
 
 .selectedPage {
-    border-top: #6DCCEF 4px solid;
+    border-top: #6DCCEF 4px solid; color: #6DCCEF;
 
 }
 
@@ -127,6 +144,7 @@ p {
     text-align: center;
 }
 
+
 .sloganBox {
     width: 100%;
     height: 119px;
@@ -136,12 +154,46 @@ p {
 }
 
 .contactBox {
-    width: 60%;
-    height: 119px;
+    width: 40%;
+    height: fit-content;
     background-color: rgba(130, 179, 194, .75);
     margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
 }
+
+.contactTextBoxes{
+    width: 100%;
+}
+
+.contactMain {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.contactText {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.privacyMain {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.privacyBox {
+    width: 80%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
 
 .imgBox {
     display: flex;
