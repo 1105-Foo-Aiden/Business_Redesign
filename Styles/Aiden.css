@@ -4,6 +4,9 @@
     background-size: 100% 100%;
 }
 
+.TextBG{
+    background-color: rgba(130, 179, 194, .75)
+}
 
 #icon{
     width: 20px;
