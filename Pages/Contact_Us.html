@@ -35,21 +35,35 @@
           <div class="col"><a href="./Contact_Us.html">
               <p class="selectedPage">Contact Us</p>
             </a></div>
-          <div class="col"><a><img id="icon" src="../Assets/Icondiscord.png"></a><a><img id="icon"
-                src="../Assets/Iconfacbook.png"></a><a><img id="icon" src="../Assets/Iconinstagram.png"></a><a><img
-                id="icon" src="../Assets/tiktokIcon.png"></a></div>
+          <div class="col"><a>
+            <img id="icon" src="../Assets/Icondiscord.png"></a><a><img id="icon"
+                src="../Assets/Iconfacebook.png"></a><a><img id="icon" src="../Assets/Iconinstagram.png"></a><a><img
+                id="icon" src="../Assets/Icontiktok.png"></a></div>
         </div>
       </div>
     </div>
   </header>
-  <div class="container bodyMain contactCol">
-    <div class="col contactBox ">
-        <div class="row">
+  <div class="container bodyMain contactBox">
+    <div class="col contactCol">
+        <div class="row" style="justify-content: center;">
           Contact Us
         </div>
         <div class="row">
           <input type="name" name="contactName" placeholder="Name" type="text">
         </div>    
+        <p></p>
+        <div class="row">
+          <input type="email" name="contactEmail" placeholder="Email" type="text">
+        </div> 
+        <p></p>
+        <div class="row">
+          <input type="subject" name="contactSubject" placeholder="Subject" type="text">
+        </div> 
+        <p></p> 
+        <div class="row">
+          <input type="subject" name="contactSubject" placeholder="Subject" type="text">
+        </div> 
+        <p></p> 
     </div>
   </div>
 
@@ -62,8 +76,11 @@
         <div class="row">
           <p>Subscribe Form</p>
         </div>
-        <div class="row"><input type="email" name="subscribeEmail" placeholder="Email Address" type="text"></div>
-        <div class="row"><button>Submit</button></div>
+        <div class="row"><input type="email" name="subscribeEmail" placeholder="Email Address" type="text" id="subscribeInput"></div>
+        <div class="row"><button id="submitBtn">Submit</button></div>
+        <div id="subscribedTxt">
+          
+        </div>
       </div>
       <div class="col contactCol">
         <div class="row">
@@ -73,13 +90,15 @@
           <p>(916) 568-9232</p>
         </div>
         <div class="row copyright">
-          <p>©2020-2023 by The Shark Tank by Hammerhead Games Privacy Notice</p>
+          <p>©2020-2023 by The Shark Tank by Hammerhead Games <a href="../Pages/Privcy_Notice.html">Privacy Notice</a></p>
         </div>
       </div>
     </div>
   </footer>
-
-    <script src="../Scripts/Retail_Info.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+  </script>
+  <script type="module" src="../Scripts/app.js"></script>
   </body>
 </html>
