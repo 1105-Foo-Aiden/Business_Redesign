@@ -30,6 +30,7 @@ p {
 }
 
 .privcyNotice p{
+    width: 84.2%;
     color: black;
     text-align: start;
     margin-top: auto;
