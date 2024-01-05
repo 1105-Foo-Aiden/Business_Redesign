@@ -1,5 +1,11 @@
-body {
+.homeBody {
     background-image: url(../Assets/backgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.calendarBody{
+    background-image: url(../Assets/backgroundShark.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -67,6 +73,20 @@ p {
     flex-direction: column;
     align-items: center;
     width: 84.2%;
+}
+
+.calendarMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84.2%;
+    background-color: rgba(130, 179, 194, .75);
+}
+
+.calendarMain h1{
+    text-align: center;
+    color: #6DCCEF;
+    -webkit-text-stroke: 2px black;
 }
 
 .bodyMain h1 {
