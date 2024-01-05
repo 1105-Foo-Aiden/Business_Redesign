@@ -310,6 +310,12 @@ p {
     font-size: smaller;
 }
 
+@media(max-width: 1439px){
+    .smallImgs{
+        display: none;
+    }
+}
+
 @media(max-width: 1024px) {
     .logoCol {
         display: none;
@@ -328,6 +334,10 @@ p {
 
     .calendarMain .row {
         width: 100%;
+    }
+
+    .imgCol{
+        display: none;
     }
 }
 
