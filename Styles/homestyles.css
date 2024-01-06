@@ -455,3 +455,21 @@ a {
         justify-content: center;
     }
 }
+
+
+.weSell{
+    color: black; 
+    text-align: left; 
+    text-indent: 25px; 
+    font-family: 'Inika', serif; 
+    font-size: calc(14px + .3vw)
+}
+
+.w-100{
+    width: 100%
+}
+
+.privcyNoticeLink{
+    color: white; 
+    text-decoration: underline;
+}
