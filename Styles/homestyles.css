@@ -30,7 +30,7 @@ p {
 }
 
 .privcyNotice p {
-    width: 84.2%;
+    width: 80%;
     margin: auto;
     color: black;
     text-align: start;
@@ -39,7 +39,7 @@ p {
 }
 
 .privcyNotice b {
-    width: 84.2%;
+    width: 80%;
     margin: auto;
     line-height: 50px;
 }
@@ -64,7 +64,6 @@ p {
 .nav {
     padding: 0;
     height: 182px;
-    width: 50%;
 }
 
 .navLogo {
@@ -108,14 +107,14 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 84.2%;
+    width: 80%;
 }
 
 .calendarMain {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 84.2%;
+    width: 80%;
     height: 75vh;
     background-color: rgba(130, 179, 194, .75);
     margin: 10px auto;
@@ -214,7 +213,7 @@ p {
 }
 
 .largeImg {
-    padding-left: 0;
+    padding: 0;
     width: auto;
     display: flex;
     justify-content: center;
@@ -398,7 +397,6 @@ a {
     .imgCol {
         display: none;
     }
-
 }
 
 @media (max-width: 768px) {
