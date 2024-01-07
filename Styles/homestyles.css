@@ -478,8 +478,7 @@ a {
     color: #6DCCEF;
     -webkit-text-stroke: 2px black;
     font-family: 'Inknut Antiqua', serif;
-    font-size: 12px;
-    font-size: calc(48px + 1.5vw);
+    font-size: calc(10px + 2.08vw);
     text-align: center;
     justify-content: center;
 }
