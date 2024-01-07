@@ -1,5 +1,19 @@
 Peer Review
 ------------
-Name:
-Date:
-Review: 
+Name: Jerrod Packard
+Date: January 6, 2024
+Review:
+
+Desktop site:
+Home page: This page looks nice! Very close representation to the figma. I don't see any issues with it.
+Retail Store Info: Good job with this page too! Very close to the figma. The bottom image next to the events paragraph is a little blurry though. Maybe another image there would be good.
+Our Calendar: The calendar goes outside the bounds of the underlying container when the height of the display is less than 1120px or so. Otherwise, good job with this page.
+Contact Us: I like the form and the layout is nice. It would be really cool if you had a modal pop up when the user hits the submit button like your footer email subscribe form does for invalid email addresses.
+
+Mobile site: The navbar menu button isn't quite centered on the page.
+Home page: There is a minor padding issue with the image of the guy standing behind the counter, but that's an easy fix.
+Retail Store Info: The link for this page on the navbar doesn't work in the mobile version. The image just above the "We Host Events" section is a little wonky and pretty blurry. Other than that, this page looks nice. The link to this page isn't highlighted in the navbar menu.
+Our Calendar: The calendar is very small and tough to read on mobile. The background container is longer than it needs to be for just containing the calendar here. There's a small padding issue here that is pushing the calendar to the right a bit; it's not perfectly centered in the container. In the navbar, the link to the current page isn't highlighted.
+Contact us: The form looks a little bad here. The container could be widened to give the form some extra breathing room to make it more readable and usable. The link to this page isn't highlighted in the navbar menu either. Easy fix!
+
+Overall thoughts: Good job guys! Very nice site. I like the layout and the color scheme. The underwater theme is very cool and I like that the background images are there without being too distracting to the site. Readability is good on every page. Just a few minor fixes with alignment and padding and you guys are good to go. Well done!
