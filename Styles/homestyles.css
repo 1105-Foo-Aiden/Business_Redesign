@@ -167,7 +167,7 @@ p {
 }
 
 .contactBox {
-    width: 84.2%;
+    width: 30%;
     height: 75vh;
     background-color: rgba(130, 179, 194, .75);
     margin-top: 10px;
@@ -472,4 +472,14 @@ a {
 .privcyNoticeLink{
     color: white; 
     text-decoration: underline;
+}
+
+.contactText h1{
+    color: #6DCCEF;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 12px;
+    font-size: calc(48px + 1.5vw);
+    text-align: center;
+    justify-content: center;
 }
